@@ -1,0 +1,247 @@
+[
+    {
+        "benchmark": "fpsol2.i.1.col",
+        "benchmarkFile": "benchmarks/fpsol2.i.1.col",
+        "answer": 65
+    },
+    {
+        "benchmark": "fpsol2.i.2.col",
+        "benchmarkFile": "benchmarks/fpsol2.i.2.col",
+        "answer": 30
+    },
+    {
+        "benchmark": "fpsol2.i.3.col",
+        "benchmarkFile": "benchmarks/fpsol2.i.3.col",
+        "answer": 30
+    },
+    {
+        "benchmark": "inithx.i.1.col",
+        "benchmarkFile": "benchmarks/inithx.i.1.col",
+        "answer": 54
+    },
+    {
+        "benchmark": "inithx.i.2.col",
+        "benchmarkFile": "benchmarks/inithx.i.2.col",
+        "answer": 31
+    },
+    {
+        "benchmark": "inithx.i.3.col",
+        "benchmarkFile": "benchmarks/inithx.i.3.col",
+        "answer": 31
+    },
+    {
+        "benchmark": "le450_15b.col",
+        "benchmarkFile": "benchmarks/le450_15b.col",
+        "answer": 15
+    },
+    {
+        "benchmark": "le450_15c.col",
+        "benchmarkFile": "benchmarks/le450_15c.col",
+        "answer": 15
+    },
+    {
+        "benchmark": "le450_15d.col",
+        "benchmarkFile": "benchmarks/le450_15d.col",
+        "answer": 15
+    },
+    {
+        "benchmark": "le450_25a.col",
+        "benchmarkFile": "benchmarks/le450_25a.col",
+        "answer": 25
+    },
+    {
+        "benchmark": "le450_25b.col",
+        "benchmarkFile": "benchmarks/le450_25b.col",
+        "answer": 25
+    },
+    {
+        "benchmark": "le450_25c.col",
+        "benchmarkFile": "benchmarks/le450_25c.col",
+        "answer": 25
+    },
+    {
+        "benchmark": "le450_25d.col",
+        "benchmarkFile": "benchmarks/le450_25d.col",
+        "answer": 25
+    },
+    {
+        "benchmark": "le450_5a.col",
+        "benchmarkFile": "benchmarks/le450_5a.col",
+        "answer": 5
+    },
+    {
+        "benchmark": "le450_5b.col",
+        "benchmarkFile": "benchmarks/le450_5b.col",
+        "answer": 5
+    },
+    {
+        "benchmark": "le450_5c.col",
+        "benchmarkFile": "benchmarks/le450_5c.col",
+        "answer": 5
+    },
+    {
+        "benchmark": "le450_5d.col",
+        "benchmarkFile": "benchmarks/le450_5d.col",
+        "answer": 5
+    },
+    {
+        "benchmark": "mulsol.i.1.col",
+        "benchmarkFile": "benchmarks/mulsol.i.1.col",
+        "answer": 49
+    },
+    {
+        "benchmark": "mulsol.i.2.col",
+        "benchmarkFile": "benchmarks/mulsol.i.2.col",
+        "answer": 31
+    },
+    {
+        "benchmark": "mulsol.i.3.col",
+        "benchmarkFile": "benchmarks/mulsol.i.3.col",
+        "answer": 31
+    },
+    {
+        "benchmark": "mulsol.i.4.col",
+        "benchmarkFile": "benchmarks/mulsol.i.4.col",
+        "answer": 31
+    },
+    {
+        "benchmark": "mulsol.i.5.col",
+        "benchmarkFile": "benchmarks/mulsol.i.5.col",
+        "answer": 31
+    },
+    {
+        "benchmark": "zeroin.i.1.col",
+        "benchmarkFile": "benchmarks/zeroin.i.1.col",
+        "answer": 49
+    },
+    {
+        "benchmark": "zeroin.i.2.col",
+        "benchmarkFile": "benchmarks/zeroin.i.2.col",
+        "answer": 30
+    },
+    {
+        "benchmark": "zeroin.i.3.col",
+        "benchmarkFile": "benchmarks/zeroin.i.3.col",
+        "answer": 30
+    },
+    {
+        "benchmark": "anna.col",
+        "benchmarkFile": "benchmarks/anna.col",
+        "answer": 11
+    },
+    {
+        "benchmark": "david.col",
+        "benchmarkFile": "benchmarks/david.col",
+        "answer": 11
+    },
+    {
+        "benchmark": "homer.col",
+        "benchmarkFile": "benchmarks/homer.col",
+        "answer": 13
+    },
+    {
+        "benchmark": "huck.col",
+        "benchmarkFile": "benchmarks/huck.col",
+        "answer": 11
+    },
+    {
+        "benchmark": "jean.col",
+        "benchmarkFile": "benchmarks/jean.col",
+        "answer": 10
+    },
+    {
+        "benchmark": "games120.col",
+        "benchmarkFile": "benchmarks/games120.col",
+        "answer": 9
+    },
+    {
+        "benchmark": "miles1000.col",
+        "benchmarkFile": "benchmarks/miles1000.col",
+        "answer": 42
+    },
+    {
+        "benchmark": "miles1500.col",
+        "benchmarkFile": "benchmarks/miles1500.col",
+        "answer": 73
+    },
+    {
+        "benchmark": "miles250.col",
+        "benchmarkFile": "benchmarks/miles250.col",
+        "answer": 8
+    },
+    {
+        "benchmark": "miles500.col",
+        "benchmarkFile": "benchmarks/miles500.col",
+        "answer": 20
+    },
+    {
+        "benchmark": "miles750.col",
+        "benchmarkFile": "benchmarks/miles750.col",
+        "answer": 31
+    },
+    {
+        "benchmark": "queen11_11.col",
+        "benchmarkFile": "benchmarks/queen11_11.col",
+        "answer": 11
+    },
+    {
+        "benchmark": "queen13_13.col",
+        "benchmarkFile": "benchmarks/queen13_13.col",
+        "answer": 13
+    },
+    {
+        "benchmark": "queen5_5.col",
+        "benchmarkFile": "benchmarks/queen5_5.col",
+        "answer": 5
+    },
+    {
+        "benchmark": "queen6_6.col",
+        "benchmarkFile": "benchmarks/queen6_6.col",
+        "answer": 7
+    },
+    {
+        "benchmark": "queen7_7.col",
+        "benchmarkFile": "benchmarks/queen7_7.col",
+        "answer": 7
+    },
+    {
+        "benchmark": "queen8_12.col",
+        "benchmarkFile": "benchmarks/queen8_12.col",
+        "answer": 12
+    },
+    {
+        "benchmark": "queen8_8.col",
+        "benchmarkFile": "benchmarks/queen8_8.col",
+        "answer": 9
+    },
+    {
+        "benchmark": "queen9_9.col",
+        "benchmarkFile": "benchmarks/queen9_9.col",
+        "answer": 10
+    },
+    {
+        "benchmark": "myciel3.col",
+        "benchmarkFile": "benchmarks/myciel3.col",
+        "answer": 4
+    },
+    {
+        "benchmark": "myciel4.col",
+        "benchmarkFile": "benchmarks/myciel4.col",
+        "answer": 5
+    },
+    {
+        "benchmark": "myciel5.col",
+        "benchmarkFile": "benchmarks/myciel5.col",
+        "answer": 6
+    },
+    {
+        "benchmark": "myciel6.col",
+        "benchmarkFile": "benchmarks/myciel6.col",
+        "answer": 7
+    },
+    {
+        "benchmark": "myciel7.col",
+        "benchmarkFile": "benchmarks/myciel7.col",
+        "answer": 8
+    }
+]
