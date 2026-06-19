@@ -1,6 +1,6 @@
 # 📡 Alocação Dinâmica de Espectro em Redes Celulares Densas (DSA)
 
-Este projeto implementa um motor de otimização combinatória para resolver o problema de **Alocação Dinâmica de Espectro (DSA)** em redes celulares densas (5G/6G e IoT). A solução é fundamentada na teoria de **Coloração Aproximada de Grafos**, onde os elementos da rede de telecomunicações são mapeados da seguinte forma:
+Este projeto foi desenvolvido para a obtenteção de nota do trabalho final da disciplina de Análise de Algoritmo do curso de Ciência da Computação na UFRR e implementa um motor de otimização combinatória para resolver o problema de **Alocação Dinâmica de Espectro (DSA)** em redes celulares densas (5G/6G e IoT). A solução é fundamentada na teoria de **Coloração Aproximada de Grafos**, onde os elementos da rede de telecomunicações são mapeados da seguinte forma:
 
 * **Vértices (Nós):** Representam as unidades de transmissão celular (transceivers) ou estações rádio-base.
 
