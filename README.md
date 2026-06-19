@@ -2,16 +2,13 @@
 
 Este projeto implementa um motor de otimização combinatória para resolver o problema de **Alocação Dinâmica de Espectro (DSA)** em redes celulares densas (5G/6G e IoT). A solução é fundamentada na teoria de **Coloração Aproximada de Grafos**, onde os elementos da rede de telecomunicações são mapeados da seguinte forma:
 
-* 
-**Vértices (Nós):** Representam as unidades de transmissão celular (transceivers) ou estações rádio-base.
+* **Vértices (Nós):** Representam as unidades de transmissão celular (transceivers) ou estações rádio-base.
 
 
-* 
-**Arestas:** Representam a sobreposição de áreas de cobertura, gerando potencial de interferência mútua.
+* **Arestas:** Representam a sobreposição de áreas de cobertura, gerando potencial de interferência mútua.
 
 
-* 
-**Cores:** Representam os canais ou subfaixas de frequência disponíveis.
+* **Cores:** Representam os canais ou subfaixas de frequência disponíveis.
 
 
 
@@ -19,20 +16,16 @@ O objetivo do motor é **minimizar o número de cores utilizadas** (número crom
 
 ## 🚀 Funcionalidades e Requisitos Atendidos
 
-* 
-**Estruturas de Dados Manuais:** Cumprindo a restrição do projeto, o código não utiliza bibliotecas de grafos externas (como NetworkX ou BGL). Toda a manipulação topológica (listas e matrizes de adjacência) foi construída do zero em C.
+* **Estruturas de Dados Manuais:** Cumprindo a restrição do projeto, o código não utiliza bibliotecas de grafos externas (como NetworkX ou BGL). Toda a manipulação topológica (listas e matrizes de adjacência) foi construída do zero em C.
 
 
-* 
-**Fase 1 - Algoritmo Construtivo Avançado:** Utiliza a heurística **DSATUR** baseada em graus de saturação para fornecer uma solução inicial rápida e viável.
+* **Fase 1 - Algoritmo Construtivo Avançado:** Utiliza a heurística **DSATUR** baseada em graus de saturação para fornecer uma solução inicial rápida e viável.
 
 
-* 
-**Fase 2 - Meta-heurística de Refinamento:** Aplica **Simulated Annealing** (Busca Local Estocástica) para tentar reduzir o número de canais utilizados, resolvendo conflitos gerados por saltos aleatórios no espaço de busca.
+* **Fase 2 - Meta-heurística de Refinamento:** Aplica **Simulated Annealing** (Busca Local Estocástica) para tentar reduzir o número de canais utilizados, resolvendo conflitos gerados por saltos aleatórios no espaço de busca.
 
 
-* 
-**Integração Visual (Gephi):** Exportação nativa da topologia de rede para o formato `.gml`, atribuindo visualmente as frequências (cores) às estações, permitindo a análise topológica de interferências.
+* **Integração Visual (Gephi):** Exportação nativa da topologia de rede para o formato `.gml`, atribuindo visualmente as frequências (cores) às estações, permitindo a análise topológica de interferências.
 
 
 
@@ -59,16 +52,13 @@ Para a avaliação experimental exigida pelo projeto, utilizamos os grafos do **
 
 1. Acesse a base de dados: [CMU DIMACS Instances](https://mat.tepper.cmu.edu/COLOR/instances.html)
 2. Baixe as instâncias recomendadas no escopo do projeto, que simulam escalonamentos e redes, como:
-* 
-`le450_5a.col` 
+* `le450_5a.col` 
 
 
-* 
-`flat300_28_0.col` 
+* `flat300_28_0.col` 
 
 
-* 
-`r250.5.col` 
+* `r250.5.col` 
 
 
 
@@ -110,12 +100,3 @@ O projeto requer que o resultado reflita a rede celular, onde nós são as esta�
 * Vá na janela **Aparência** (canto superior esquerdo) > Aba **Nós** > Ícone de **Paleta de Cores**.
 * Selecione **Partição** e, no menu suspenso, escolha o atributo **Frequencia**.
 * Clique em **Aplicar**. O Gephi utilizará a distribuição de canais calculada pelo algoritmo, garantindo que estações conectadas (com interferência) possuam cores diferentes.
-
-
-
-
-4. **Rótulos:** Ative o botão "T" (Mostrar Rótulos dos Nós) na barra inferior para visualizar o ID de cada transceptor.
-
----
-
-*Projeto desenvolvido como ativo técnico para disciplina de grafos/algoritmos, acompanhado de artigo no formato SBC/ACM contendo análises assintóticas e avaliações experimentais*.
